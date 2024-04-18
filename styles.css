@@ -63,3 +63,7 @@ body{
     border-radius: 0.4rem;
     cursor: pointer;
 }
+
+#output-div,#output{
+    margin: 1rem;
+}
