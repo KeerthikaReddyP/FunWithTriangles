@@ -1,35 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Triangle Quiz</title>
-</head>
-<body>
-    <h1>How well do you know Triangles?</h1>
-    <form class="quiz-form">
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <a href="index.html">Is Triangle?</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="hypotenuse.html">Hypotenuse</a>
+    </nav>
+    <div class="container">
+      <h1>How well do you know Triangles?</h1>
+      <form class="quiz-form">
         <div class="question-container">
-            <p>What is the third angle of a triangle if angle1=45° and angle2=45°?</p>
-            <label><input type="radio" name="question1" value="45°" />45°</label>
-            <label><input type="radio" name="question1" value="60°" />60°</label>
-            <label><input type="radio" name="question1" value="90°" />90°</label>
+          <p>
+            What is the third angle of a triangle if angle1=45° and angle2=45°?
+          </p>
+          <label><input type="radio" name="question1" value="45°" />45°</label>
+          <label><input type="radio" name="question1" value="60°" />60°</label>
+          <label><input type="radio" name="question1" value="90°" />90°</label>
         </div>
         <div class="question-container">
-            <p>If a triangle has an angle of 90 degree, what is it called?</p>
-            <label><input type="radio" name="question2" value="acute" />acute</label>
-            <label><input type="radio" name="question2" value="obtuse" />obtuse</label>
-            <label><input type="radio" name="question2" value="right-angled" />right-angled</label>
+          <p>If a triangle has an angle of 90 degree, what is it called?</p>
+          <label
+            ><input type="radio" name="question2" value="acute" />acute</label
+          >
+          <label
+            ><input type="radio" name="question2" value="obtuse" />obtuse</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question2"
+              value="right-angled"
+            />right-angled</label
+          >
         </div>
         <div class="question-container">
-            <p>Which of the following triangles are always similar?</p>
-            <label><input type="radio" name="question3" value="Equilateral" />Equilateral</label>
-            <label><input type="radio" name="question3" value="obtuse" />obtuse</label>
-            <label><input type="radio" name="question3" value="Isoceles" />Isoceles</label>
+          <p>Which of the following triangles are always similar?</p>
+          <label
+            ><input
+              type="radio"
+              name="question3"
+              value="Equilateral"
+            />Equilateral</label
+          >
+          <label
+            ><input type="radio" name="question3" value="obtuse" />obtuse</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question3"
+              value="Isoceles"
+            />Isoceles</label
+          >
         </div>
-    </form>
-    <button id="quiz-submit-btn">Submit answers</button>
-    <div id="output"></div>
+      </form>
+      <button id="quiz-submit-btn">Submit answers</button>
+      <div id="output"></div>
+    </div>
+    <footer class="footer">
+      Connect with me
+      <a href="https://github.com/KeerthikaReddyP"
+        ><img src="images/githubicon.svg" class="icon"
+      /></a>
+      <a href="https://www.linkedin.com/in/keerthika-panchika/" class="link"
+        ><img src="images/linkedinicon.svg" class="icon"
+      /></a>
+    </footer>
 
     <script src="quiz.js"></script>
-</body>
+  </body>
 </html>

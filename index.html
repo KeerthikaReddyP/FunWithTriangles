@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fun with triangles</title>
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body>
-    <h1>Is Triangle?</h1>
-    <p>Enter angles and check whether they can form a triangle or not.</p>
-    <label for="angle1">angle1</label>
-    <input type="number" class="angle-input" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <a href="/">Is Triangle?</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="hypotenuse.html">Hypotenuse</a>
+    </nav>
+    <div class="container">
+      <h1>Is Triangle?</h1>
+      <p>Enter angles and check whether they can form a triangle or not.</p>
+      <label for="angle1">angle1</label>
+      <input type="number" class="angle-input" />
 
-    <label for="angle2">angle2</label>
-    <input type="number" class="angle-input" />
+      <label for="angle2">angle2</label>
+      <input type="number" class="angle-input" />
 
-    <label for="angle3">angle3</label>
-    <input type="number" class="angle-input" />
+      <label for="angle3">angle3</label>
+      <input type="number" class="angle-input" />
 
-    <button id="is-triangle-btn">Check</button>
+      <button id="is-triangle-btn">Check</button>
 
-    <div id="output-div"></div>
-    
+      <div id="output-div"></div>
+    </div>
+    <footer class="footer">
+      Connect with me
+      <a href="https://github.com/KeerthikaReddyP"
+        ><img src="images/githubicon.svg" class="icon"
+      /></a>
+      <a href="https://www.linkedin.com/in/keerthika-panchika/" class="link"
+        ><img src="images/linkedinicon.svg" class="icon"
+      /></a>
+    </footer>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

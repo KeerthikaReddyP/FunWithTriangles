@@ -1,0 +1,24 @@
+:root{
+    --dark-navyblue:rgb(2, 2, 34);
+    --light-purple:rgb(187, 110, 239);
+    --white:rgb(246, 243, 243);
+}
+body{
+    background-color: var(--dark-navyblue);
+    color: var(--light-purple);
+    font-family: sans-serif;
+}
+.container{
+    margin:auto;
+    width: 50%;
+}
+.nav-bar, .footer{
+    background-color: var(--light-purple);
+    color: var(--white);
+    margin:2rem;
+    padding: 2rem;
+}
+.icon{
+    width: 2em;
+    margin-right: .5rem;
+}
