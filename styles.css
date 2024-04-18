@@ -11,12 +11,26 @@ body{
 .container{
     margin:auto;
     width: 50%;
+    font-size: large;
 }
 .nav-bar, .footer{
     background-color: var(--light-purple);
-    color: var(--white);
+    color: black;
     margin:2rem;
     padding: 2rem;
+}
+.link{
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 0.3rem;
+}
+.link:hover{
+    background-color: rgb(115, 12, 183);
+    color: white;
 }
 .icon{
     width: 2em;
