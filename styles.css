@@ -18,6 +18,8 @@ body{
     color: black;
     margin:2rem;
     padding: 2rem;
+    text-align: center;
+    
 }
 .link{
     text-decoration: none;
@@ -35,4 +37,29 @@ body{
 .icon{
     width: 2em;
     margin-right: .5rem;
+}
+
+.question-container{
+    border: 0.1rem solid var(--light-purple);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+.input{
+    display: block;
+    margin: 0.3rem;
+}
+.angle-input{
+    display: inline;
+    margin: 0.3rem;
+}
+#hypotenuse-btn, #is-triangle-btn, #quiz-submit-btn{
+    display: block;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--dark-navyblue);
+    color: var(--light-purple);
+    border: 0.1rem solid var(--light-purple);
+    border-radius: 0.4rem;
+    cursor: pointer;
 }
